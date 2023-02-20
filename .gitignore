@@ -1,0 +1,7 @@
+/.vscode
+/node_modules
+/coverage
+/build
+/src/uploads/images
+.env
+package-lock.json
