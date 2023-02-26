@@ -104,7 +104,7 @@ const createPlace = async (data) => {
       description: validateData.description,
       address: validateData.address,
       location: coordinates,
-      image: validateData.image.path,
+      image: validateData.image.filename,
       creator,
     };
 

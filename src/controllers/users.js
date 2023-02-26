@@ -76,7 +76,7 @@ const signup = async (data) => {
       name: validateData.name,
       email: validateData.email,
       password: validateData.password,
-      image: validateData.image.path,
+      image: validateData.image.filename,
       places: [],
     };
 
