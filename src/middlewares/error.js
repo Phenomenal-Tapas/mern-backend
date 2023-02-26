@@ -2,7 +2,7 @@ import fs from "fs";
 
 export default (err, req, res, next) => {
   if (req.file) {
-    fs.unlink(req.file.path, (err) => {
+    fs.unlink(req.file.filename, (err) => {
       next(err);
     });
   }
